@@ -345,13 +345,6 @@
       "name": "Aave Token",
       "symbol": "AAVE"
     },
-    "SUSHI": {
-      "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
-      "contract": "SushiToken",
-      "decimals": 18,
-      "name": "SushiToken",
-      "symbol": "SUSHI"
-    },
     "YFI": {
       "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
       "contract": "yearn.finance",

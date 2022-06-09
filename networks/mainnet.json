@@ -539,6 +539,15 @@
       "contract": "CEther",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "address": "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5"
+    },
+    "cSUSHI": {
+      "address": "0x4b0181102a0112a2ef11abee5563bb4a3176c9d7",
+      "contract": "CErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Compound Sushi Token",
+      "symbol": "cSUSHI",
+      "underlying": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
     }
   },
   "InterestRateModel": {

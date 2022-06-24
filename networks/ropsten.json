@@ -397,6 +397,16 @@
     }
   },
   "cTokens": {
+    "cZRX": {
+      "name": "Compound ZRX",
+      "symbol": "cZRX",
+      "decimals": 8,
+      "address": "0x6B8b0D7875B4182Fb126877023fB93b934dD302A",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0xc0e2d7d9279846b80eacdea57220ab2333bc049d",
+      "contract": "CErc20Immutable"
+    },
     "cWBTC": {
       "name": "Compound WBTC",
       "symbol": "cWBTC",
@@ -406,6 +416,96 @@
       "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
       "underlying": "0x442Be68395613bDCD19778e761f03261ec46C06D",
       "contract": "CErc20Immutable"
+    },
+    "cUSDT": {
+      "name": "Compound USDT",
+      "symbol": "cUSDT",
+      "decimals": 8,
+      "address": "0xF6958Cf3127e62d3EB26c79F4f45d3F3b2CcdeD4",
+      "initial_exchange_rate_mantissa": "200000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0x110a13FC3efE6A245B50102D2d79B3E76125Ae83",
+      "contract": "CErc20Delegator"
+    },
+    "cUSDC": {
+      "name": "Compound USDC",
+      "symbol": "cUSDC",
+      "decimals": 8,
+      "address": "0x2973e69b20563bcc66dC63Bde153072c33eF37fe",
+      "initial_exchange_rate_mantissa": "200000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0x07865c6e87b9f70255377e024ace6630c1eaa37f",
+      "contract": "CErc20Immutable"
+    },
+    "cETH": {
+      "name": "Compound ETH",
+      "symbol": "cETH",
+      "decimals": 8,
+      "address": "0x859e9d8a4edadfEDb5A2fF311243af80F85A91b8",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "",
+      "contract": "CEther"
+    },
+    "cSAI": {
+      "name": "Compound SAI",
+      "symbol": "cSAI",
+      "decimals": 8,
+      "address": "0x7Ac65E0f6dBA0EcB8845f17d07bF0776842690f8",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0x63F7AB2f24322Ae2eaD6b971Cb9a71A1CC2eee03",
+      "contract": "CErc20Immutable"
+    },
+    "cREP": {
+      "name": "Compound REP",
+      "symbol": "cREP",
+      "decimals": 8,
+      "address": "0x2862065D57749f1576F48eF4393eb81c45fC2d88",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0xb1cBa8b721C7a241b9AD08C17F328886B014ACfE",
+      "contract": "CErc20Immutable"
+    },
+    "cDAI": {
+      "name": "Compound DAI",
+      "symbol": "cDAI",
+      "decimals": 8,
+      "address": "0xbc689667C13FB2a04f09272753760E38a95B998C",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0x31F42841c2db5173425b5223809CF3A38FEde360",
+      "contract": "CErc20Delegator"
+    },
+    "cBAT": {
+      "name": "Compound BAT",
+      "symbol": "cBAT",
+      "decimals": 8,
+      "address": "0xaF50a5A6Af87418DAC1F28F9797CeB3bfB62750A",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0x50390975d942e83d661d4bde43bf73b0ef27b426",
+      "contract": "CErc20Immutable"
+    },
+    "cCOMP": {
+      "name": "Compound COMP",
+      "symbol": "cCOMP",
+      "decimals": 8,
+      "address": "0x70014768996439F71C041179Ffddce973a83EEf2",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0xf76D4a441E4ba86A923ce32B89AFF89dBccAA075",
+      "contract": "CErc20Delegator"
+    },
+    "cUNI": {
+      "name": "Compound Uniswap",
+      "symbol": "cUNI",
+      "decimals": 8,
+      "address": "0x65280b21167BBD059221488B7cBE759F9fB18bB5",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0x046231a12d30248bAD3322Af74CEA9c325627D32",
+      "underlying": "0xc8f88977e21630cf93c02d02d9e8812ff0dfc37a",
+      "contract": "CErc20Delegator"
     }
   },
   "InterestRateModel": {
